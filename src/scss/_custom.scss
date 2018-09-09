@@ -5,9 +5,9 @@
 .diamond {
   width: 5px;
   height: 5px;
-  background-color: $main-blue;
+  background-color: $gold;
   text-align: center;
-  margin: 1.5em auto;
+  margin: 1em auto;
   transform: rotate(-45deg);
   &-w {
     background-color: $grey;
@@ -129,9 +129,13 @@
 //////// section-1///////////
 /////////////////////////////
 #section-1 {
-  border-bottom: 4px solid $gold;
-  border-top: 4px solid $gold;
-  background: $grey;
+  // border: 4px solid $gold;
+  background: $main-blue;
+  .wrap {
+    margin: 0 1em;
+    border: 1.5px solid $gold;
+    height: 100%;
+  }
 }
 
 .main-type {
@@ -159,7 +163,7 @@
 .text-box {
   max-width: 90%;
   margin: 0 auto;
-  color: $main-blue;
+  color: $gold;
   font-weight: 400;
   &:last-child {
     margin-top: 2rem;
@@ -167,6 +171,8 @@
   }
   .dcolor {
     color: $gold;
+    opacity: 0.7;
+    font-size: 0.85em;
   }
   .mbig {
     font-size: 1em;
@@ -232,7 +238,7 @@
 .map {
   padding-bottom: 2em;
   .map-round {
-    border: 1.5px solid $gold;
+    border: 1.5px solid $main-blue;
     width: 100%;
   }
   &-button {

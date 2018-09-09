@@ -409,7 +409,7 @@ a {
   text-decoration: none; }
 
 .linktext {
-  border-bottom: 1px solid #3b3331; }
+  border-bottom: 1px solid #0f2747; }
 
 /* FONT COLOR */
 .text-w {
@@ -444,7 +444,7 @@ body {
   height: 100%; }
 
 body {
-  color: #3b3331;
+  color: #0f2747;
   -webkit-overflow-scrolling: touch; }
 
 .body-main {
@@ -505,9 +505,9 @@ img {
 .diamond {
   width: 5px;
   height: 5px;
-  background-color: #3b3331;
+  background-color: #c28b57;
   text-align: center;
-  margin: 1.5em auto;
+  margin: 1em auto;
   transform: rotate(-45deg); }
   .diamond-w {
     background-color: #F4F4F4; }
@@ -524,7 +524,7 @@ img {
 .circle {
   width: 6px;
   height: 6px;
-  background: #3b3331;
+  background: #0f2747;
   text-align: center;
   margin: 1.5em auto 1em;
   border-radius: 50%; }
@@ -559,7 +559,7 @@ img {
     font-family: serif; }
 
 .text-button {
-  border: 1.2px solid #3b3331;
+  border: 1.2px solid #0f2747;
   padding: 0.7em 1.5em;
   font-weight: 600;
   text-align: center; }
@@ -602,9 +602,11 @@ img {
   animation: to-left 0.6s ease-in-out infinite running; }
 
 #section-1 {
-  border-bottom: 4px solid #c28b57;
-  border-top: 4px solid #c28b57;
-  background: #F4F4F4; }
+  background: #0f2747; }
+  #section-1 .wrap {
+    margin: 0 1em;
+    border: 1.5px solid #c28b57;
+    height: 100%; }
 
 .main-type {
   position: absolute;
@@ -628,13 +630,15 @@ img {
 .text-box {
   max-width: 90%;
   margin: 0 auto;
-  color: #3b3331;
+  color: #c28b57;
   font-weight: 400; }
   .text-box:last-child {
     margin-top: 2rem;
     padding-bottom: 2rem; }
   .text-box .dcolor {
-    color: #c28b57; }
+    color: #c28b57;
+    opacity: 0.7;
+    font-size: 0.85em; }
   .text-box .mbig {
     font-size: 1em; }
 
@@ -677,7 +681,7 @@ img {
 .map {
   padding-bottom: 2em; }
   .map .map-round {
-    border: 1.5px solid #c28b57;
+    border: 1.5px solid #0f2747;
     width: 100%; }
   .map-button {
     font-weight: bold; }
@@ -705,13 +709,13 @@ img {
 
 .share-button {
   position: relative;
-  border: 1px solid #3b3331;
+  border: 1px solid #0f2747;
   z-index: 2;
   margin: 1.5em 0 0;
   padding: 1.2em 0 1em;
   font-weight: bold;
   text-decoration: none;
-  color: #3b3331;
+  color: #0f2747;
   text-align: center; }
   .share-button:hover:before {
     top: 0;
@@ -729,7 +733,7 @@ img {
     left: -10px;
     width: calc(100% + 2px);
     height: calc(100% + 2px);
-    border: 1px solid #3b3331;
+    border: 1px solid #0f2747;
     transition: all .3s ease; }
 
 @media (min-width: 550px) {
@@ -754,7 +758,7 @@ img {
     font-family: 'Tangerine'; }
   .gallery-header-subtitle {
     font-size: 0.6em;
-    color: #3b3331;
+    color: #0f2747;
     letter-spacing: 3px;
     font-weight: 400;
     font-family: sans-serif; }
@@ -857,7 +861,7 @@ img {
     top: 30px;
     text-align: center;
     width: 100%;
-    color: #3b3331;
+    color: #0f2747;
     font-size: 14px;
     font-family: sans-serif;
     letter-spacing: 3px;
@@ -870,7 +874,7 @@ img {
 
 .loading {
   float: left;
-  background: #3b3331;
+  background: #0f2747;
   width: 5px;
   height: 5px;
   border-radius: 50%;
@@ -900,7 +904,7 @@ img {
     opacity: 1; } }
 
 /**
- * Swiper 4.3.3
+ * Swiper 4.3.5
  * Most modern mobile touch slider and framework with hardware accelerated transitions
  * http://www.idangero.us/swiper/
  *
@@ -908,7 +912,7 @@ img {
  *
  * Released under the MIT License
  *
- * Released on: June 5, 2018
+ * Released on: July 31, 2018
  */
 .swiper-container {
   margin: 0 auto;
