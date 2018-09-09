@@ -1,0 +1,32 @@
+{
+  "name": "@soimhur/sokeun-blog",
+  "version": "1.0.0",
+  "description": "Soim & Beobkeun Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soimhur/sokeun-blog.git"
+  },
+  "author": "Soim Hur <soimhur@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soimhur/sokeun-blog/issues"
+  },
+  "homepage": "https://github.com/soimhur/sokeun-blog#readme",
+  "devDependencies": {
+    "aos": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-batch": "^1.0.5",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^5.0.0",
+    "jquery": "^3.2.1",
+    "precss": "^3.0.0",
+    "swiper": "^4.1.0"
+  }
+}

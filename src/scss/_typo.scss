@@ -1,0 +1,96 @@
+@import 'color';
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:600,400i');
+// @import url('https://fonts.googleapis.com/css?family=Cardo:700');
+// @import url('https://fonts.googleapis.com/css?family=Great+Vibes|Italianno');
+@import url('https://fonts.googleapis.com/css?family=Tangerine:700');
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+$fonts: 'Vollkorn',
+// 'Italianno',
+// 'Cardo',
+'Tangerine',
+'Noto Sans KR',
+'Apple SD Gothic Neo',
+sans-serif;
+$handwriting-font: 'Meddon';
+$font-size_small: 0.75rem;
+$font-size_base: 1rem;
+$font-size_1: 1.1rem;
+$font-size_2: 2rem;
+
+/* FONT SIZES */
+
+html {
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+body {
+  font-family: $fonts;
+  word-break: keep-all;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+
+p {
+  font-weight: normal;
+  letter-spacing: -0.02em;
+  margin: 0.5em 0;
+}
+
+
+/* LINKS */
+
+a {
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+.linktext {
+  border-bottom: 1px solid $main-blue;
+}
+
+
+/* FONT COLOR */
+
+.text-w {
+  color: $white;
+}
+
+
+/* FONT STYLE */
+
+.text-writing {
+  font-family: $handwriting-font;
+  font-size: 4rem;
+  padding-top: 6rem;
+  font-weight: normal;
+  >div:first-child {
+    text-align: left;
+  }
+  >div:last-child {
+    text-align: right;
+    padding-right: 0.2rem;
+    margin-top: -1.5rem;
+    >span:first-child {
+      font-size: 2.2rem;
+      padding: 0 .2rem;
+    }
+  }
+}
+
+.bold {
+  font-weight: 700;
+}
