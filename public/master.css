@@ -681,8 +681,8 @@ img {
 .map {
   padding-bottom: 2em; }
   .map .map-round {
-    border: 1.5px solid #0f2747;
-    width: 100%; }
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.15); }
   .map-button {
     font-weight: bold; }
 
@@ -704,8 +704,8 @@ img {
   padding: 1.2em;
   color: #666666;
   font-family: 'Noto Sans KR' !important;
-  border-top: 0.7px #666666 solid;
-  border-bottom: 0.7px #666666 solid; }
+  border-top: 0.7px rgba(0, 0, 0, 0.2) solid;
+  border-bottom: 0.7px rgba(0, 0, 0, 0.2) solid; }
 
 .share-button {
   position: relative;
