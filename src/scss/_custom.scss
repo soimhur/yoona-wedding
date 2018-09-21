@@ -238,8 +238,8 @@
 .map {
   padding-bottom: 2em;
   .map-round {
-    border: 1.5px solid $main-blue;
     width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.15);
   }
   &-button {
     font-weight: bold;
@@ -267,8 +267,8 @@
   padding: 1.2em;
   color: $dark-grey;
   font-family: 'Noto Sans KR' !important;
-  border-top: 0.7px $dark-grey solid;
-  border-bottom: 0.7px $dark-grey solid;
+  border-top: 0.7px rgba(0, 0, 0, 0.2) solid;
+  border-bottom: 0.7px rgba(0, 0, 0, 0.2) solid;
 }
 
 .share-button {
