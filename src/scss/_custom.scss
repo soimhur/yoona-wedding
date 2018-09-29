@@ -315,16 +315,7 @@
 }
 
 .only-ios {
-  @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
-    display: none;
-  }
-  @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-    display: none;
-  }
-  @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
-    display: none;
-  }
-  @media screen and (device-width: 360px) and (device-height: 740px) and (-webkit-device-pixel-ratio: 4) {
+  @media (min-width: 550px) {
     display: none;
   }
 }
