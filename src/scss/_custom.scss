@@ -314,7 +314,7 @@
   }
 }
 
-.only-mobile {
+.only-ios {
   @media (min-width: 550px) {
     display: none;
   }
