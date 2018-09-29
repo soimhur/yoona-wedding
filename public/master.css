@@ -736,8 +736,20 @@ img {
     border: 1px solid #0f2747;
     transition: all .3s ease; }
 
-@media (min-width: 550px) {
-  .only-mobile {
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+  .only-ios {
+    display: none; } }
+
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .only-ios {
+    display: none; } }
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+  .only-ios {
+    display: none; } }
+
+@media screen and (device-width: 360px) and (device-height: 740px) and (-webkit-device-pixel-ratio: 4) {
+  .only-ios {
     display: none; } }
 
 .gallery-header {
